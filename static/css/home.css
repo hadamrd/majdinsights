@@ -4,65 +4,85 @@ html, body {
 
 body {
   background: #24252A;
-  font-family: 'proxima-nova-soft', sans-serif;
+  font-family: 'Lora', serif;
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
   max-width: 100%;
   overflow-x: hidden;
+  padding: 0;
 }
 
 body .blog-layout {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 250px 1fr 25%;
+  grid-template-columns: 1fr 30%;
+  grid-template-rows: 66px max-content max-content max-content;
   grid-template-areas:
           "hd hd"
-          "ct ct"
+          "rp rp"
+          "bp bp"
           "ft ft";
 }
+
 .side-bar {
   display: none;
 }
+
 header {
   grid-area: hd;
 }
 
-body .content {
+
+body .recent-posts {
+  width: 90%;
+  grid-area: rp;
+  margin: 30px auto 30px;
+  border: solid 2px red;
+}
+
+body .recent-posts h1,
+body .blog-posts h1{
+  width: 100%;
+  color: #edf0f1;
+}
+
+
+body .blog-posts {
+  width: 90%;
+  margin: 30px auto 30px;
   display: flex;
-  grid-area: ct;
+  grid-area: bp;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
-}
-
-body .content h1 {
-  width: 100%;
-  text-align: center;
-  color: #edf0f1;
-  margin-bottom: 40px;
+  border: solid 2px red;
 }
 
 body .side-bar {
   grid-area: abt;
+  margin: 30px auto 30px;
+  border: solid 2px red;
 }
 
 body .footer-distributed {
   grid-area: ft;
+  border: solid 2px red;
 }
 
 @media(min-width:900px) {
-  body .blog-layout {
-    display: grid;
-    grid-template-columns: 1fr 20%;
-    grid-template-rows: 250px 1fr 20%;
-    grid-template-areas:
-            "hd hd"
-            "ct abt"
-            "ft ft";
-  }
+body .blog-layout {
+  display: grid;
+  grid-template-columns: 1fr 30%;
+  grid-template-rows: 66px max-content max-content max-content;
+  grid-template-areas:
+          "hd hd"
+          "rp rp"
+          "bp abt"
+          "ft ft";
+}
   .side-bar {
     display: flex;
   }
 }
+
