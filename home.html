@@ -11,10 +11,18 @@
     <link rel="stylesheet" type="text/css" href="static/css/card.css">
     <link rel="stylesheet" type="text/css" href="static/css/navbar.css">
     <link rel="stylesheet" type="text/css" href="static/css/side-bar.css">
+    <link rel="stylesheet" type="text/css" href="static/css/post-slider.css">
+
+    <!-- third party js -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="text/javascript" src="static/scripts/hover-description.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script type="text/javascript" src="static/scripts/scripts.js"></script>
     <link rel="shortcut icon" href="static/images/logo_size_invert.jpg"/>
+
+    <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Candal&family=Lora&display=swap" rel="stylesheet">
+
 
 </head>
 
@@ -22,20 +30,45 @@
 
 <div class="blog-layout">
     <header>
-        <div class="logo">
-            <h1 class="logo-text"><span>Majd</span>Insights</h1>
-        </div>
-        <ul class="nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+        <nav class="navbar">
+            <div class="logo">
+                <h1 class="logo-text"><span>Majd</span>Insights</h1>
+            </div>
+            <a class="toggle-bar" href="#"><i class="fa fa-bars"></i></a>
+            <ul class="nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <div class="recent-posts">
-        <h1 class="recent-post-title">Recent posts</h1>
+    <div class="trending-posts-wrap">
+        <h1 class="trending-posts-title">Trending posts</h1>
+        <i class="fa fa-chevron-circle-left fa-3x slick-prev-btn"></i>
+        <i class="fa fa-chevron-circle-right fa-3x slick-next-btn"></i>
+        <div class="post-slider">
+            <div class="tending-post">
+                <img src="static/images/kitten.jpg" alt="" class="post-img">
+                <div class="trending-post-content">
+                    <h4><a href="#"></a></h4>
+                    <i class="fa fa-user">Khalid Majdoub</i>
+                    &nbsp;
+                    <i class="fa fa-calendar"> May 9, 2020</i>
+                </div>
+            </div>
+            <div class="tending-post">
+                <img src="static/images/doggy1.jpeg" alt="" class="post-img">
+            </div>
+            <div class="tending-post">
+                <img src="static/images/kitten1.jpg" alt="" class="post-img">
+            </div>
+            <div class="tending-post">
+                <img src="static/images/doggy2.jpg" alt="" class="post-img">
+            </div>
+        </div>
     </div>
-    <div class="blog-posts">
+    <div class="blog-posts-wrap">
         <h1>Blog posts</h1>
         <div class="post-module">
             <div class="thumbnail">

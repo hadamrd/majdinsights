@@ -1,46 +1,48 @@
-header {
-  background-color: #008489;
-  background-image: linear-gradient(#008489, #004044);
-}
-
-* {
-  box-sizing: border-box;
-}
-
 header * {
   color: #edf0f1;
 }
 
-header .logo {
+.navbar {
+  height: 66px;
+  background-color: #008489;
+  background-image: linear-gradient(#008489, #004044);
+}
+
+.logo {
   float: left;
   margin-left: 30px;
   cursor: pointer;
   height: inherit;
 }
 
-header .logo-text {
-  margin: 9px;
+.toggle-bar i {
+  display: none;
 }
 
-header .logo-text span {
+.logo-text {
+  margin: 16px;
+  text-align: center;
+}
+
+.logo-text span {
   color: #03c6cb;
-  font-family: 'Candal', Serif;
+  font-family: 'Candal', serif;
 }
 
-header ul {
+.nav-list {
   list-style: none;
   float: right;
   padding: 0;
   width: 50%;
-  margin: 0 30px;
+  margin: 0;
 }
 
-header ul li {
+.nav-list li {
   width: 25%;
   float: left;
 }
 
-header ul li a {
+.nav-list li a {
   text-decoration: none;
   display: block;
   padding: 21px;
@@ -50,7 +52,36 @@ header ul li a {
   height: 66px;
 }
 
-header ul li a:hover {
+.nav-list li a:hover {
   background-color: #014f53;
   transition: 0.3s;
+}
+
+@media only screen and (max-width: 750px) {
+  .nav-list {
+    width: 100%;
+    background-color: #0E94A0;
+    background-image: linear-gradient(#0E94A0, #05383d);
+    height: 0;
+    -moz-transition: height 0.8s;
+    -webkit-transition: height 0.8s;
+    -o-transition: height 0.8s;
+    transition: height 0.8s;
+    overflow: hidden  }
+
+  .nav-list li {
+    width: 100%;
+  }
+
+  .toggle-bar i {
+    display: block;
+    border: red 1px solid;
+    float: right;
+    font-size: 2em;
+    margin: 16px 10px;
+  }
+
+  .shown {
+    height: 18.5em;
+  }
 }

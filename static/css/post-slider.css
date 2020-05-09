@@ -1,0 +1,62 @@
+.trending-posts-wrap {
+  width: 90%;
+  margin: 50px auto 30px;
+  border: solid 2px red;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas:
+          "tp-hd tp-hd tp-hd"
+          "prev-btn tp-slick next-btn";
+  overflow: hidden;
+}
+
+.trending-posts-wrap h1 {
+  grid-area: tp-hd;
+  color: #edf0f1;
+  border: 1px dashed greenyellow;
+  margin: auto;
+}
+
+.post-slider {
+  grid-area: tp-slick;
+  height: max-content;
+  border: 1px dashed greenyellow;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.slick-prev-btn {
+  grid-area: prev-btn;
+}
+
+.slick-next-btn {
+  grid-area: next-btn;
+}
+
+.slick-prev-btn, .slick-next-btn {
+  border: 1px dashed greenyellow;
+  margin: auto;
+  color: #0088a9;
+  cursor: pointer;
+}
+
+.slick-next-btn:hover,
+.slick-prev-btn:hover {
+  color: #024a5c;
+}
+
+.tending-post {
+  width: 300px;
+  display: inline-block;
+  height: 450px;
+  margin: 0 10px;
+  border: 1px dashed snow;
+  overflow: hidden;
+}
+
+.post-img {
+  height: 60%;
+}
+
