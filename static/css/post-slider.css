@@ -1,7 +1,6 @@
 .trending-posts-wrap {
-  width: 90%;
   margin: 50px auto 30px;
-  border: solid 2px red;
+  border: #C38D9E dashed 2px;
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-template-rows: repeat(2, auto);
@@ -13,15 +12,12 @@
 
 .trending-posts-wrap h1 {
   grid-area: tp-hd;
-  color: #edf0f1;
-  border: 1px dashed greenyellow;
-  margin: auto;
+  margin: 20px auto;
 }
 
 .post-slider {
   grid-area: tp-slick;
   height: max-content;
-  border: 1px dashed greenyellow;
   overflow: hidden;
   margin: 0 auto;
   width: 100%;
@@ -35,16 +31,17 @@
   grid-area: next-btn;
 }
 
-.slick-prev-btn, .slick-next-btn {
-  border: 1px dashed greenyellow;
+.slick-prev-btn,
+.slick-next-btn {
   margin: auto;
-  color: #0088a9;
+  color: rgba(114, 44, 66, 1);
   cursor: pointer;
 }
 
 .slick-next-btn:hover,
 .slick-prev-btn:hover {
-  color: #024a5c;
+  color: rgba(114, 44, 66, 0.8);;
+  transition: 0.3s;
 }
 
 .tending-post {
@@ -52,11 +49,20 @@
   display: inline-block;
   height: 450px;
   margin: 0 10px;
-  border: 1px dashed snow;
   overflow: hidden;
+  background-color: aliceblue;
+  border-radius: 5px;
+  box-shadow: 1rem 1rem 1rem -1rem #a0a0a033;
+}
+
+.trending-post-content {
+  padding: 0 10px 0 10px;
+  line-height: 1.6;
 }
 
 .post-img {
+  width: 100%;
   height: 60%;
+  border-radius: 5px;
 }
 

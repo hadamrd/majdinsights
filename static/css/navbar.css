@@ -4,8 +4,8 @@ header * {
 
 .navbar {
   height: 66px;
-  background-color: #008489;
-  background-image: linear-gradient(#008489, #004044);
+  background-color: #525B43;
+  background-image: linear-gradient(#525B43, #383D2E);
 }
 
 .logo {
@@ -25,7 +25,7 @@ header * {
 }
 
 .logo-text span {
-  color: #03c6cb;
+  color: #557A95;
   font-family: 'Candal', serif;
 }
 
@@ -50,18 +50,18 @@ header * {
   font-weight: 600;
   font-size: 1.1em;
   height: 66px;
+  transition: 0.3s;
 }
 
 .nav-list li a:hover {
-  background-color: #014f53;
-  transition: 0.3s;
+  background-color: rgba(82, 91, 67, 0.8);
 }
 
 @media only screen and (max-width: 750px) {
   .nav-list {
     width: 100%;
-    background-color: #0E94A0;
-    background-image: linear-gradient(#0E94A0, #05383d);
+  background-color: #525B43;
+  background-image: linear-gradient(#525B43, #383D2E);
     height: 0;
     -moz-transition: height 0.8s;
     -webkit-transition: height 0.8s;
@@ -75,7 +75,6 @@ header * {
 
   .toggle-bar i {
     display: block;
-    border: red 1px solid;
     float: right;
     font-size: 2em;
     margin: 16px 10px;

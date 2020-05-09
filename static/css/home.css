@@ -7,7 +7,7 @@ html, body {
 }
 
 body {
-  background: #24252A;
+  background-color: #E0E0E0;
   font-family: 'Lora', serif;
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
@@ -29,28 +29,28 @@ body .trending-posts-wrap {
 body .blog-posts-wrap h1 {
   width: 100%;
   color: #edf0f1;
+  margin: 0 auto;
 }
 
 body .blog-posts-wrap {
-  width: 90%;
   margin: 30px auto 30px;
   display: flex;
   grid-area: bp;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
-  border: solid 2px red;
+  border: #C38D9E dashed 2px;
 }
 
 body .side-bar {
+  margin: 30px auto 30px;
   grid-area: abt;
-  margin: 30px 30px 30px 0;
-  border: solid 2px red;
+  border: #C38D9E dashed 2px;
 }
 
 body .footer-distributed {
   grid-area: ft;
-  border: solid 2px red;
+  border: #C38D9E dashed 2px;
 }
 
 body .blog-layout {
