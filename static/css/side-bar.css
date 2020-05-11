@@ -1,4 +1,7 @@
 .side-bar {
+  padding: 12px;
+  margin: 30px 10px 30px 5px;
+  background-color: #edf0f1;
 }
 
 .about-me-wrap {
@@ -27,11 +30,7 @@
   background-color: #525B43;
 }
 
-@media only screen and (max-width: 750px) {
-  .side-bar {
-    display: none;
-  }
-}
+
 
 .abt-me-socials a {
 	display: inline-block;

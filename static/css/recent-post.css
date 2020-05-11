@@ -4,7 +4,8 @@
   flex-wrap: wrap;
   width: 95%;
   margin: 30px auto 30px;
-  border: green dashed 2px;
+  background-color: #edf0f1;
+  padding: 10px;
 }
 
 .rp-header {
@@ -13,8 +14,10 @@
 
 .recent-post {
   background-color: white;
-  margin-bottom: 25px;
+  margin: 10px 15px;
   height: 300px;
+  border-radius: 5px;
+  box-shadow: 1rem 1rem 1rem -1rem #a0a0a033;
 }
 
 .rp-thumbnail {
@@ -22,6 +25,8 @@
   float: left;
   width: 40%;
   height: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .rp-main {

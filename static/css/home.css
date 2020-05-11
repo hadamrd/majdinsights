@@ -31,9 +31,7 @@ body .recent-posts-wrap {
 }
 
 body .side-bar {
-  margin: 30px auto 30px;
   grid-area: abt;
-  border: #C38D9E dashed 2px;
 }
 
 body .footer-distributed {
@@ -59,11 +57,12 @@ body .blog-layout {
   body .blog-layout {
     display: grid;
     grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(4, auto);
+    grid-template-rows: repeat(5, auto);
     grid-template-areas:
             "hd hd"
             "rp rp"
             "bp bp"
+            "abt abt"
             "ft ft";
   }
 }
