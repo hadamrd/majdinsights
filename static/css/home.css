@@ -49,8 +49,6 @@ body .blog-layout {
           "ft ft";
 }
 
-
-
 @media only screen and (max-width: 750px) {
   body .blog-layout {
     display: grid;
