@@ -1,5 +1,6 @@
 .footer-distributed{
-	background-color: #292c2f;
+  background-color: #525B43;
+  background-image: linear-gradient(#525B43, #383D2E);
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
@@ -25,9 +26,9 @@
 }
 
 
-
-.footer-distributed h3 span{
-	color:  #5383d3;
+.footer-distributed h3 span {
+  color: #BF9943;
+  font-family: 'Candal', serif;
 }
 
 /* Footer links */
@@ -43,6 +44,10 @@
 	line-height: 1.8;
 	text-decoration: none;
 	color:  inherit;
+}
+
+.footer-distributed .footer-icons a:hover{
+	background-color: rgba(51, 56, 59, 0.48);
 }
 
 .footer-distributed .footer-profile-name{
@@ -145,6 +150,11 @@
 	padding: 15px 50px;
 	font-weight: bold;
 	float: right;
+	cursor: pointer;
+}
+
+.footer-distributed form button:hover{
+	background-color: rgba(51, 56, 59, 0.48);
 }
 
 /* If you don't want the footer to be responsive, remove these media queries */

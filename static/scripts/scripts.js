@@ -12,12 +12,29 @@ $(document).ready(function () {
         $('.nav-list').toggleClass("shown");
     });
 
-    $('.post-slider').slick({
+    $('.tp-slider').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
+        autoplay: true,
         autoplaySpeed: 2000,
         nextArrow: $('.slick-next-btn'),
-        prevArrow: $('.slick-prev-btn')
+        prevArrow: $('.slick-prev-btn'),
+        responsive: [
+            {
+                breakpoint: 870,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+        ]
     });
 
 });

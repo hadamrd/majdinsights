@@ -1,72 +1,49 @@
-.card {
-  box-shadow: 0 0 30px;
-  padding: 15px;
-  background-color: #0088a9;
-  background-image: linear-gradient(#0088a9, #888);
-  border-radius: 10px;
-  max-width: 260px;
+.side-bar {
+}
+
+.about-me-wrap {
   display: block;
-  height: max-content;
-  margin: auto;
-}
-
-.card hr {
-  width: 80%;
-  opacity: 0.3;
-}
-
-.profile-sidebar {
-  display: inline-flex;
-}
-
-.profile-sidebar img {
-  border-radius: 100%;
-  border: solid 2px black;
-  width: 70%;
-  height: 70%;
-}
-
-.profile-sidebar .socials__list {
-  margin: 10% -10% 10% ;
-  list-style: none;
-}
-
-.profile-sidebar .socials__list li {
-  padding: 40%;
-}
-
-
-.profile-sidebar .socials__list a {
-  background-color: rgba(103, 65, 114, 0.2);
-  border-radius: 100%;
-  padding: 8px 12px;
-  transition: all 0.3s ease 0s;
-}
-
-.profile-sidebar .socials__list a:hover {
-  background-color: rgba(103, 65, 114, 0.5);
-  border-radius: 100%;
-}
-
-.profile-main {
   text-align: center;
 }
 
-.profile-name {
-
+.abt-me-img {
+  border-radius: 100%;
+  margin-bottom: -55px;
 }
 
-.profile-body {
-
+.abt-me-name {
+  font-family: 'Great Vibes', cursive;
+  font-size: 40px;
+  text-align: center;
 }
 
-.profile-position {
+.abt-me-content {
+  background-color: #525B43;
+  padding: 40px 10px 10px 10px;
+  text-align: start;
+}
 
+.abt-me-socials {
+  background-color: #525B43;
 }
 
 @media only screen and (max-width: 750px) {
   .side-bar {
     display: none;
   }
+}
 
+.abt-me-socials a {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 8px;
+	margin-bottom: 5px;
 }

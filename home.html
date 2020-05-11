@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="static/css/home.css">
     <link rel="stylesheet" type="text/css" href="static/css/footer.css">
-    <link rel="stylesheet" type="text/css" href="static/css/card.css">
     <link rel="stylesheet" type="text/css" href="static/css/navbar.css">
     <link rel="stylesheet" type="text/css" href="static/css/side-bar.css">
     <link rel="stylesheet" type="text/css" href="static/css/post-slider.css">
+    <link rel="stylesheet" type="text/css" href="static/css/recent-post.css">
 
     <!-- third party js -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -22,6 +22,7 @@
 
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Candal&family=Lora&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 
 
 </head>
@@ -47,146 +48,125 @@
         <h1 class="trending-posts-title">Trending posts</h1>
         <i class="fa fa-chevron-left fa-3x slick-prev-btn"></i>
         <i class="fa fa-chevron-right fa-3x slick-next-btn"></i>
-        <div class="post-slider">
-            <div class="tending-post">
-                <img src="static/images/kitten.jpg" alt="" class="post-img">
-                <div class="trending-post-content">
-                    <h4><a href="#">Motivation is the key</a></h4>
-                    <p>If you can auto-motivate yourself to work on your side business,
-                    say for two hours a day. You will succeed growing a profitable business.</p>
+        <div class="tp-slider">
+            <div class="trending-post">
+                <img src="static/images/kitten.jpg" alt="" class="tp-thumbnail">
+                <div class="tp-content">
+                    <h3 class="tp-title"><a href="#">Motivation is the key</a></h3>
+                    <div class="tp-meta">
+                        <i class="fa fa-user"> Khalid Majdoub</i>
+                        &nbsp;
+                        <i class="fa fa-calendar"> May 9, 2020</i>
+                    </div>
+                </div>
+            </div>
+            <div class="trending-post">
+                <img src="static/images/doggy1.jpeg" alt="" class="tp-thumbnail">
+                <div class="tp-content">
+                    <h3><a href="#">Be consistent in what you do</a></h3>
+                    <div class="tp-meta">
+                        <i class="fa fa-user"> Khalid Majdoub</i>
+                        &nbsp;
+                        <i class="fa fa-calendar"> May 9, 2020</i>
+                    </div>
+                </div>
+            </div>
+            <div class="trending-post">
+                <img src="static/images/kitten1.jpg" alt="" class="tp-thumbnail">
+                <div class="tp-content">
+                    <h3><a href="#">Avoid cheap dopamine as much as possible</a></h3>
+                    <div class="tp-meta">
+                        <i class="fa fa-user"> Khalid Majdoub</i>
+                        &nbsp;
+                        <i class="fa fa-calendar"> May 9, 2020</i>
+                    </div>
+                </div>
+            </div>
+            <div class="trending-post">
+                <img src="static/images/doggy2.jpg" alt="" class="tp-thumbnail">
+                <div class="tp-content">
+                    <h3><a href="#">Don't let procrastination steal your dreams</a></h3>
+                    <div class="tp-meta">
+                        <i class="fa fa-user"> Khalid Majdoub</i>
+                        &nbsp;
+                        <i class="fa fa-calendar"> May 9, 2020</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="recent-posts-wrap">
+        <h1 class="rp-header">Recent posts</h1>
+        <div class="recent-post">
+            <img src="static/images/dopamine.png" alt="" class="rp-thumbnail">
+            <div class="rp-main">
+                <h2 class="rp-title">How to do a dopamine detox</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda commodi ducimus ipsa mollitia
+                    nesciunt porro reiciendis. Ad consequatur culpa laudantium libero molestiae nihil, odio placeat qui
+                    quibusdam quos ratione, voluptatum?</p>
+                <div class="rp-meta">
                     <i class="fa fa-user"> Khalid Majdoub</i>
                     &nbsp;
                     <i class="fa fa-calendar"> May 9, 2020</i>
                 </div>
-            </div>
-            <div class="tending-post">
-                <img src="static/images/doggy1.jpeg" alt="" class="post-img">
-            </div>
-            <div class="tending-post">
-                <img src="static/images/kitten1.jpg" alt="" class="post-img">
-            </div>
-            <div class="tending-post">
-                <img src="static/images/doggy2.jpg" alt="" class="post-img">
+                <a href="#" class="rp-readmore">Read more</a>
             </div>
         </div>
-    </div>
-    <div class="blog-posts-wrap">
-        <h1>Recent posts</h1>
-        <div class="post-module">
-            <div class="thumbnail">
-                <div class="date">
-                    <div class="day">27</div>
-                    <div class="month">Mar</div>
+        <div class="recent-post">
+            <img src="static/images/motivation-tn.jpg" alt="" class="rp-thumbnail">
+            <div class="rp-main">
+                <h2 class="rp-title">Closing in on what motivates motivation</h2>
+                <p>The neurotransmitter dopamine facilitates learning, motivation and movement. Evidence of its release
+                    independently of the activity of dopamine-producing neurons in rat brains forces a rethink of
+                    dopamine regulation.</p>
+                <div class="rp-meta">
+                    <i class="fa fa-user"> Khalid Majdoub</i>
+                    &nbsp;
+                    <i class="fa fa-calendar"> May 9, 2020</i>
                 </div>
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg"/>
-            </div>
-            <div class="post-content">
-                <div class="category">Photos</div>
-                <h1 class="title">City Lights in New York</h1>
-                <h2 class="sub-title">The city that never sleeps.</h2>
-                <p class="description">New York, the largest city in the U.S., is an architectural marvel with
-                    plenty of historic monuments, magnificent buildings and countless dazzling skyscrapers.</p>
-                <div class="post-meta">
-                    <span class="timestamp">
-                        <i class="fa fa-clock-o"></i> 6 mins ago
-                    </span>
-                    <span class="share">
-                        <i class="fa fa-share-alt"></i><a href="#"> share</a>
-                    </span>
-                </div>
-                <p class="read-more">
-                    <a href="blog.html">Read More</a>
-                </p>
+                <a href="https://www.nature.com/articles/d41586-019-01589-6" class="rp-readmore" target="_blank">Read
+                    more</a>
             </div>
         </div>
-        <div class="post-module">
-            <div class="thumbnail">
-                <div class="date">
-                    <div class="day">27</div>
-                    <div class="month">Mar</div>
+        <div class="recent-post">
+            <img src="static/images/success-recipese.jpeg" alt="" class="rp-thumbnail">
+            <div class="rp-main">
+                <h2 class="rp-title">20 recipes for success</h2>
+                <p>The neurotransmitter dopamine facilitates learning, motivation and movement. Evidence of its release
+                    independently of the activity of dopamine-producing neurons in rat brains forces a rethink of
+                    dopamine regulation.</p>
+                <div class="rp-meta">
+                    <i class="fa fa-user"> Khalid Majdoub</i>
+                    &nbsp;
+                    <i class="fa fa-calendar"> May 9, 2020</i>
                 </div>
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg"/>
-            </div>
-            <div class="post-content">
-                <div class="category">Photos</div>
-                <h1 class="title">City Lights in New York</h1>
-                <h2 class="sub-title">The city that never sleeps.</h2>
-                <p class="description">New York, the largest city in the U.S., is an architectural marvel with
-                    plenty of historic monuments, magnificent buildings and countless dazzling skyscrapers.</p>
-                <div class="post-meta">
-                <span class="timestamp">
-                    <i class="fa fa-clock-o"></i> 6 mins ago
-                </span>
-                    <span class="share">
-                    <i class="fa fa-share-alt"></i><a href="#"> share</a>
-                </span>
-                </div>
-                <p class="read-more">
-                    <a href="blog.html">Read More</a>
-                </p>
-            </div>
-        </div>
-        <div class="post-module">
-            <div class="thumbnail">
-                <div class="date">
-                    <div class="day">27</div>
-                    <div class="month">Mar</div>
-                </div>
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg"/>
-            </div>
-            <div class="post-content">
-                <div class="category">Photos</div>
-                <h1 class="title">City Lights in New York</h1>
-                <h2 class="sub-title">The city that never sleeps.</h2>
-                <p class="description">New York, the largest city in the U.S., is an architectural marvel with
-                    plenty of historic monuments, magnificent buildings and countless dazzling skyscrapers.</p>
-                <div class="post-meta">
-                <span class="timestamp">
-                    <i class="fa fa-clock-o"></i> 6 mins ago
-                </span>
-                    <span class="share">
-                    <i class="fa fa-share-alt"></i><a href="#"> share</a>
-                </span>
-                </div>
-                <p class="read-more">
-                    <a href="blog.html">Read More</a>
-                </p>
-            </div>
-        </div>
-        <div class="post-module">
-            <div class="thumbnail">
-                <div class="date">
-                    <div class="day">27</div>
-                    <div class="month">Mar</div>
-                </div>
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg"/>
-            </div>
-            <div class="post-content">
-                <div class="category">Photos</div>
-                <h1 class="title">City Lights in New York</h1>
-                <h2 class="sub-title">The city that never sleeps.</h2>
-                <p class="description">New York, the largest city in the U.S., is an architectural marvel with
-                    plenty of historic monuments, magnificent buildings and countless dazzling skyscrapers.</p>
-                <div class="post-meta">
-                <span class="timestamp">
-                    <i class="fa fa-clock-o"></i> 6 mins ago
-                </span>
-                    <span class="share">
-                    <i class="fa fa-share-alt"></i><a href="#"> share</a>
-                </span>
-                </div>
-                <p class="read-more">
-                    <a href="blog.html">Read More</a>
-                </p>
-
+                <a href="https://www.nature.com/articles/d41586-019-01589-6" class="rp-readmore" target="_blank">Read
+                    more</a>
             </div>
         </div>
     </div>
     <div class="side-bar">
+        <div class="about-me-wrap">
+            <img class="abt-me-img" src="static/images/me.jpeg">
+            <div class="abt-me-content">
+                <h1 class="abt-me-name">Hi i am khalid</h1>
+                <p>I am a fullstack engineer with three years experience as a consultant for tech companies. I can
+                    develop in the main three languages and i have various experiences in different domains and with
+                    different technologies.</p>
+                    <p>In my free time i like to design websites and read news about the IT industry. I am
+                    particularly interested in emerging technologies like deep-learning, sdn and block-chain.</p>
+            </div>
+            <div class="abt-me-socials">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+            </div>
+        </div>
     </div>
     <footer class="footer-distributed">
         <div class="footer-left">
-            <h3>Majd<span>Insights</span></h3>
+            <h3><span>Majd</span>Insights</h3>
             <p class="footer-links">
                 <a href="#">Home</a>
                 ·
@@ -206,7 +186,7 @@
         </div>
         <div class="footer-right">
             <p>Contact Me</p>
-            <form action="#" method="#">
+            <form action="#" method="">
                 <input type="text" name="email" placeholder="Email">
                 <textarea name="message" placeholder="Message"></textarea>
                 <button>Send</button>
