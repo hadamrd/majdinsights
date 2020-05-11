@@ -32,6 +32,7 @@
   overflow: hidden;
   margin: 0 auto;
   width: 95%;
+  display: block !important;
 }
 
 .slick-prev-btn {
