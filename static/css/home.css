@@ -49,14 +49,12 @@ body .blog-layout {
           "ft ft";
 }
 
-.side-bar {
-  display: flex;
-}
+
 
 @media only screen and (max-width: 750px) {
   body .blog-layout {
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: 70% 30%;
     grid-template-rows: repeat(5, auto);
     grid-template-areas:
             "hd hd"

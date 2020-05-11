@@ -1,0 +1,14 @@
+.blog-article {
+  background-color: white;
+  float: left;
+  padding: 70px 50px;
+  font-size: 1.1em;
+  border-radius: 5px;
+}
+
+article .article-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+

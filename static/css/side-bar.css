@@ -4,6 +4,8 @@
   background-color: #edf0f1;
 }
 
+/* about me css */
+
 .about-me-wrap {
   display: block;
   text-align: center;
@@ -30,8 +32,6 @@
   background-color: #525B43;
 }
 
-
-
 .abt-me-socials a {
 	display: inline-block;
 	width: 35px;
@@ -45,4 +45,41 @@
 	line-height: 35px;
 	margin-right: 8px;
 	margin-bottom: 5px;
+}
+
+/* popular topics css */
+.popular-topics {
+  width: 100%;
+
+}
+
+.popular-post {
+  background-color: white;
+  height: 60px;
+  margin-top: 10px;
+  width: 100%;
+  min-width: 300px;
+  position: relative;
+  border-bottom: #1f2022 solid 1px;
+}
+
+.pp-img {
+  width: 70px;
+  height: 60px;
+  float: left;
+}
+
+.popular-topics a {
+  color: inherit;
+  text-decoration: none;
+  font-family: 'Candal', serif;
+  text-align: center;
+}
+
+.pp-title h4 {
+  padding: 15px;
+}
+.popular-topics a:hover {
+  color: #0088a9;
+  transition: 0.3s;
 }
