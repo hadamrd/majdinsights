@@ -31,8 +31,9 @@
   height: max-content;
   overflow: hidden;
   margin: 0 auto;
-  width: 95%;
-  display: block !important;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
 }
 
 .slick-prev-btn {
