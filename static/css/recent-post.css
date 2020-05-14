@@ -1,4 +1,4 @@
-.recent-posts-wrap {
+.main-posts-wrap {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -30,6 +30,7 @@
   width: 100%;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
+  object-fit: cover;
 }
 
 .rp-main {

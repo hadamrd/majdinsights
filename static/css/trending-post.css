@@ -32,23 +32,27 @@
   width: 100%!important;
   display: table !important;
   table-layout: fixed !important;
-  order: 1;
 }
 
 .slick-prev-btn {
-  order: 0;
   grid-area: prev-btn;
 }
 
 .slick-next-btn {
   grid-area: next-btn;
-  order: 2;
 }
 
 .slick-prev-btn,
 .slick-next-btn {
-  margin: auto 0!important;
-	height: 60px!important;
+  margin: auto 0;
+	height: 60px;
+  cursor: pointer;
+  color: #383D2E;
+}
+
+.slick-prev-btn:hover,
+.slick-next-btn:hover {
+  opacity: 0.8;
 }
 
 .trending-post {
@@ -66,6 +70,7 @@
   height: 270px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  object-fit: cover;
 }
 
 .tp-content {

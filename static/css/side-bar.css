@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap);
 
-.side-bar {
+.side-bar-wrap {
   padding: 12px;
   margin: 50px 10px 50px 5px;
   background-color: #edf0f1;
@@ -80,7 +80,7 @@
 
 
 @media only screen and (max-width: 750px) {
-  .side-bar {
+  .side-bar-wrap {
     margin: 20px auto;
     width: 95%;
   }

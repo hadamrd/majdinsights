@@ -45,15 +45,15 @@ body {
   grid-area: trending;
 }
 
-.recent-posts-wrap {
+.main-posts-wrap {
   grid-area: recent;
 }
 
-.side-bar {
+.side-bar-wrap {
   grid-area: sidebar;
 }
 
-.footer-distributed {
+.footer-wrap {
   grid-area: foot;
 }
 

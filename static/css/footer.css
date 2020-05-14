@@ -1,5 +1,5 @@
 /* footer layout */
-.footer-distributed {
+.footer-wrap {
   background-color: #525B43;
   background-image: linear-gradient(#525B43, #383D2E);
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -16,23 +16,23 @@
 	grid-gap: 250px;
 }
 
-.footer-distributed .footer-left {
+.footer-wrap .footer-left {
 	grid-area: fl;
 }
 
-.footer-distributed .footer-right {
+.footer-wrap .footer-right {
 	grid-area: fr;
 }
 
 /* The company logo */
 
-.footer-distributed h3 {
+.footer-wrap h3 {
 	color:  #ffffff;
 	font: normal 36px 'Cookie', cursive;
 	margin: 0 0 10px;
 }
 
-.footer-distributed h3 span {
+.footer-wrap h3 span {
   color: #BF9943;
   font-family: 'Candal', serif;
 }
@@ -40,20 +40,20 @@
 
 /* Footer links */
 
-.footer-distributed .footer-links{
+.footer-wrap .footer-links{
 	color:  #ffffff;
 	margin: 0 0 10px;
 	padding: 0;
 }
 
-.footer-distributed .footer-links a{
+.footer-wrap .footer-links a{
 	display:inline-block;
 	line-height: 1.8;
 	text-decoration: none;
 	color:  inherit;
 }
 
-.footer-distributed .footer-profile-name{
+.footer-wrap .footer-profile-name{
 	color:  #8f9296;
 	font-size: 14px;
 	font-weight: normal;
@@ -63,7 +63,7 @@
 
 /* Footer Right */
 
-.footer-distributed .footer-right p{
+.footer-wrap .footer-right p{
 	display: inline-block;
 	vertical-align: top;
 	margin: 15px 42px 0 0;
@@ -73,12 +73,12 @@
 
 /* The contact form */
 
-.footer-distributed form{
+.footer-wrap form{
 	display: inline-block;
 }
 
-.footer-distributed form input,
-.footer-distributed form textarea{
+.footer-wrap form input,
+.footer-wrap form textarea{
 	display: block;
 	border-radius: 3px;
 	box-sizing: border-box;
@@ -96,30 +96,30 @@
 	padding: 18px;
 }
 
-.footer-distributed ::-webkit-input-placeholder {
+.footer-wrap ::-webkit-input-placeholder {
 	color:  #5c666b;
 }
 
-.footer-distributed ::-moz-placeholder {
+.footer-wrap ::-moz-placeholder {
 	color:  #5c666b;
 	opacity: 1;
 }
 
-.footer-distributed :-ms-input-placeholder{
+.footer-wrap :-ms-input-placeholder{
 	color:  #5c666b;
 }
 
-.footer-distributed form input{
+.footer-wrap form input{
 	height: 55px;
 	margin-bottom: 15px;
 }
 
-.footer-distributed form textarea{
+.footer-wrap form textarea{
 	height: 100px;
 	margin-bottom: 20px;
 }
 
-.footer-distributed form button{
+.footer-wrap form button{
 	border-radius: 3px;
 	background-color:  #33383b;
 	color: #ffffff;
@@ -130,7 +130,7 @@
 	cursor: pointer;
 }
 
-.footer-distributed form button:hover{
+.footer-wrap form button:hover{
 	background-color: rgba(51, 56, 59, 0.48);
 }
 
@@ -139,20 +139,20 @@
 
 @media (max-width: 1000px) {
 
-	.footer-distributed {
+	.footer-wrap {
 		font: bold 14px sans-serif;
 	}
 
-	.footer-distributed .footer-profile-name{
+	.footer-wrap .footer-profile-name{
 		font-size: 12px;
 	}
 
-	.footer-distributed form input,
-	.footer-distributed form textarea{
+	.footer-wrap form input,
+	.footer-wrap form textarea{
 		width: 250px;
 	}
 
-	.footer-distributed form button{
+	.footer-wrap form button{
 		padding: 10px 35px;
 	}
 
@@ -160,7 +160,7 @@
 
 @media (max-width: 800px) {
 
-	.footer-distributed{
+	.footer-wrap {
 		padding: 30px;
 		grid-template-rows: repeat(2, auto);
 		grid-template-columns: auto;
@@ -168,19 +168,19 @@
 		grid-gap: 0;
 	}
 
-	.footer-distributed .footer-left{
+	.footer-wrap .footer-left{
 		margin-bottom: 40px;
 	}
 
-	.footer-distributed form{
+	.footer-wrap form{
 		margin-top: 30px;
 	}
 
-	.footer-distributed form{
+	.footer-wrap form{
 		display: block;
 	}
 
-	.footer-distributed form button{
+	.footer-wrap form button{
 		float: none;
 	}
 }
