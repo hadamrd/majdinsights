@@ -13,7 +13,7 @@ $(document).ready(function () {
     });
 
     $('.tp-slider').slick({
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
@@ -21,14 +21,21 @@ $(document).ready(function () {
         prevArrow: $('.slick-prev-btn'),
         responsive: [
             {
-                breakpoint: 870,
+                breakpoint: 1400,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
+                    slidesToShow: 3,
+                    slidesToScroll: 1
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 870,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 619,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1

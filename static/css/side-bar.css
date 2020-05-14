@@ -1,6 +1,8 @@
+@import url(https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap);
+
 .side-bar {
   padding: 12px;
-  margin: 30px 10px 30px 5px;
+  margin: 50px 10px 50px 5px;
   background-color: #edf0f1;
 }
 
@@ -11,7 +13,7 @@
   text-align: center;
 }
 
-.abt-me-img {
+.abt-me-thumbnail {
   border-radius: 100%;
   margin-bottom: -55px;
 }
@@ -23,40 +25,33 @@
 }
 
 .abt-me-content {
-  background-color: #525B43;
   padding: 40px 10px 10px 10px;
+  background-color: #525B43;
+}
+
+.abt-me-content p{
   text-align: start;
 }
 
-.abt-me-socials {
-  background-color: #525B43;
-}
-
-.abt-me-socials a {
-	display: inline-block;
-	width: 35px;
-	height: 35px;
-	cursor: pointer;
-	background-color:  #33383b;
-	border-radius: 2px;
-	font-size: 20px;
-	color: #ffffff;
-	text-align: center;
-	line-height: 35px;
-	margin-right: 8px;
-	margin-bottom: 5px;
+.abt-me-content .social-icons-bar {
+  margin: auto;
+  justify-content: space-evenly;
+  width: max-content;
 }
 
 /* popular topics css */
-.popular-topics {
+.popular-topics-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 5px;
 }
 
 .popular-post {
   display: block;
   background-color: white;
   height: 70px;
-  margin-top: 10px;
-  width: 100%;
+  margin: 10px;
   min-width: 300px;
   border-radius: 5px;
   font-family: 'Candal', serif;
@@ -78,18 +73,15 @@
   margin-right: 10px;
 }
 
-.popular-topics a {
+.popular-topics-nav a {
   color: inherit;
   text-decoration: none;
 }
 
-.pp-title {
-  padding-top: 25px;
-}
 
 @media only screen and (max-width: 750px) {
-.side-bar {
-  margin: 20px auto;
-  width: 95%;
-}
+  .side-bar {
+    margin: 20px auto;
+    width: 95%;
+  }
 }

@@ -3,7 +3,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   width: 95%;
-  margin: 30px auto 30px;
+  margin: 50px auto 50px;
   background-color: #edf0f1;
   padding: 10px;
 }
@@ -17,12 +17,11 @@
   display: grid;
   grid-template-columns: 40% 60%;
   grid-template-rows: minmax(min-content, max-content);
-  grid-template-areas:
-          "tn main";
+  grid-template-areas: "tn main";
   background-color: white;
   margin: 10px 15px;
   border-radius: 5px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .rp-thumbnail {
@@ -56,7 +55,10 @@
 
 .rp-readmore:after {
   content: "\f061";
-  font-family: FontAwesome;
+  font-family: "Font Awesome 5 Free", serif;
+  font-style: normal;
+  font-weight: 900;
+  text-decoration: inherit;
   margin-left: -10px;
   opacity: 0;
   vertical-align: middle;
@@ -73,8 +75,6 @@
   .recent-post {
     grid-template-rows: 250px max-content;
     grid-template-columns: minmax(min-content, max-content);
-    grid-template-areas:
-          "tn"
-          "main";
+    grid-template-areas: "tn" "main";
   }
 }
